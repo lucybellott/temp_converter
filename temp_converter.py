@@ -18,7 +18,7 @@ def convert_temp(temp_value, temp_unit):
         Celsius = (temp_value - 273.15)
         print(f"Kelvin temp: {temp_value}\nto Celsius: {Celsius}")
     else:
-        print("Sorry, I couldn't process that. Please input a number value for the temperature that you would like to input.")  
+        print("Sorry, I couldn't process that. Please input a number value for the temperature that you would like to convert.")  
 
 
 convert_temp(temp_value, temp_unit)
